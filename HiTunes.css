@@ -1,0 +1,70 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+
+:root {
+    --navbar-height: 59px
+}
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo and Image */
+
+/* #logo{
+    
+} */
+
+#logo img {
+    margin: 23px 22px;
+    height: 56px;
+}
+
+/* List Styling */
+
+#navbar{
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    color: azure;
+    display: block;
+    margin: 8px 7px;
+    padding: 5px 10px;
+    text-decoration: none;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 18px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+
+}
