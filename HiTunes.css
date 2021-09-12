@@ -89,6 +89,7 @@
     width: 100%;
     z-index: -1;
     opacity: 0.8;
+    overflow-y: hidden;
 }
 
 #home h1 {
@@ -115,4 +116,9 @@
 .primary-head {
     font-size: 6rem;
     padding: 5px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid whitesmoke;
+    background-color: brown ;
 }
